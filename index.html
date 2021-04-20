@@ -1,0 +1,211 @@
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <center>
+    <div class="col-xs-12 header_div">
+        <h1>Case Study
+        </h1>
+        <br>
+        <br>
+        <ol>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Chocos_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>Food </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>carton </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Microsoft Azure is correct </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Book_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>person</span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>packet </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4> Microsoft Azure is correct</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Knife_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>knife </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>missile </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Microsoft Azure is correct </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Phone_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>phone </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>iPod </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4> Microsoft Azure is correct</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Glass_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span> cup </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>bucket </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>Microsoft Azure is correct</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Football_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>sports ball </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>volleyball </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>MobileNet is correct </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Computer_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>laptop </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span>Computer </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>MobileNet and Microsoft Azure are correct </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="TV_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>computer monitor </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b>
+                <span>CRT screen </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>MobileNet is correct </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="Mosquito_Racket_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>athletic game </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b> - 
+                <span> racket</span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>MobileNet is correct </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="Image_and_result">
+                <li>
+                <h2><b>Test Image -</b></h2>
+                <img id="Img_1" src="bottle_img_project_WHJ-1.jpg" class="img_responsive img">
+            </li>
+            <h5>Output on <b>Microsoft Azure</b> - 
+            <span>Lipstick </span>
+            </h5>
+            <h5>Output on <b>MobileNet Project</b>
+                <span>microphone </span>
+                </h5>
+                <div class="mini_result">
+                <h4>Result - </h4>
+                <hr>
+                <h4>None of them are correct </h4>
+                </div>
+                <hr>
+                <br>
+                <br>
+                <h2>Microsoft Azure Is More Acuurate Than MobileNet</h2>
+            </div>
+            
+
+        </ol>
+      </div>
+      
+  </center>
+  </body>
